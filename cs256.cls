@@ -57,7 +57,7 @@
     {\large University of Warwick, Department of Computer Science} \\[0.1cm]
     {\huge\textbf{\course} (\code)} \\[0.1cm]
     {\huge \@title} \\[0.4cm]
-    \instructions. \\[0.20cm]
+    \instructions \\[0.20cm]
     
     \hrule \vspace{0.5cm}
 }
