@@ -11,7 +11,6 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{fancyeq}
 
 % UK English
 \usepackage[UKenglish]{babel}
@@ -49,3 +48,17 @@
 \renewcommand\topfraction{.9}
 \renewcommand\textfraction{.1}
 \renewcommand\floatpagefraction{.8}
+
+\makeatletter
+\newcommand{\course}{Course name}
+\newcommand{\code}{CS000}
+\newcommand{\instructions}{Submission instructions etc.}
+\newcommand{\makeheader}{
+    {\large University of Warwick, Department of Computer Science} \\[0.1cm]
+    {\huge\textbf{\course} (\code)} \\[0.1cm]
+    {\huge \@title} \\[0.4cm]
+    \instructions. \\[0.20cm]
+    
+    \hrule \vspace{0.5cm}
+}
+\makeatother
