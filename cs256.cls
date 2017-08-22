@@ -4,7 +4,7 @@
 %% Process given options
 \ProcessOptions\relax
 
-\LoadClass[12pt,a4paper]{exam}
+\LoadClass[12pt,a4paper]{article}
 
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
